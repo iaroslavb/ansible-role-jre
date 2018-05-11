@@ -1,0 +1,6 @@
+---
+# tasks file for ansible-role-jre/
+- name: install jre
+  apt: 
+    name:   openjdk-8-jre-headless 
+    state:  latest
